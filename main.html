@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+	<meta charset="utf-8">
+	<title>main page</title>
+</head>
+
+<style>
+	* {
+ 	  margin: 0;
+	  padding: 0;
+  	}
+  	body {
+ 	  margin: 0;
+ 	  font-family: Arial, sans-serif;
+ 	  background-color: black;
+ 	}
+ 	.navigation {
+	  width: 100%;
+	  height: 60px;
+	  background-color: #6f6f6f;
+	  padding: 0 30px;
+	  line-height: 60px;
+	}
+	.navigation .logo { 
+	  font-size: 20px;
+	  color: white;
+	  text-decoration: none;
+	  background-color: #6f6f6f;
+	}
+	.menu{
+		margin: 0;
+		padding: 0;
+		float: right;
+	}
+	.menu li{
+		list-style: none;
+		margin-right: 30px;
+		padding-left: 15px;
+		padding-right: 15px;
+		font-size: 18px;
+		float: left;
+		color: white;
+	}
+	.menu li a{
+		text-decoration: none;
+		font-size: 13px;
+		display: block;
+		color: white;
+		transition:all 0.2s;
+	}
+	li a:hover, li a:focus{
+		text-decoration:none;
+		border-bottom: solid 1.5px;
+	}	
+	.container {
+	  width: 600px;
+  	  height: 300px;
+  	  margin-top: 112px;
+	  margin-right: auto;
+	  margin-left: auto;
+	  color: white;
+	}
+	.container .profile-img{
+		float: left;
+	}
+	.container .profile-txt{
+		margin-top: 120px;
+		margin-left: 30px;
+		float: left;
+		color: white;
+	}
+	.container .profile-txt h2{
+		font-size: 18px;
+		font-weight: 500;
+	}
+	.container .title{
+		text-align: center;
+		font-weight: 500;
+		font-size: 20px;
+		margin-bottom: 64px;
+	}
+	.container2 .title{
+		text-align: center;
+		font-weight: 500;
+		font-size: 20px;
+	}
+	.tool-img{
+		text-align: center;
+		margin-top: 24px;
+		margin-bottom: 40px;
+	}
+	.tool-img img{
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+	.container2 .sub-title{
+		text-align: center;
+		font-weight: 300px;
+		margin-top: 64px;
+		color: #6f6f6f;
+	}
+	.container2 {
+	  width: 600px;
+  	  height: 450px;
+  	  margin-top: 240px;
+	  margin-right: auto;
+	  margin-left: auto;
+	  color: white;
+	}
+	.container2 p{
+		text-align: center;
+		line-height: 40px;
+		margin-top: 16px;
+	}
+	.container3 .ex-title{
+		text-align: center;
+		font-weight: 300px;
+		margin-top: 64px;
+		border-bottom: 1px solid white;
+	}
+	.container3 {
+		width: 600px;
+	  	height: 600px;
+	  	margin-top: 168px;
+		margin-right: auto;
+		margin-left: auto;
+		margin-bottom: 168px;
+		color: white;
+	}
+	.container3 p{
+		text-align: center;
+		line-height: 40px;
+		margin-top: 16px;
+	}
+	.container3 .title{
+		text-align: center;
+		font-weight: 500;
+		font-size: 20px;
+	}
+	.intro {
+     background: #000000;
+       font-size: 85px;
+     font-weight: 700;
+     text-align: center;
+     margin: 70px 5px 5px 5px;
+     background: -webkit-linear-gradient(left, #fbcac9, #8ca6ce);
+     background: -o-linear-gradient(left, #fbcac9, #8ca6ce);
+     background: linear-gradient(to right, #fbcac9, #8ca6ce);
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+   }
+	h1 span {
+	  background: -webkit-linear-gradient(left, #fbcac9, #8ca6ce);
+	  background: -o-linear-gradient(left, #fbcac9, #8ca6ce);
+	  background: linear-gradient(to right, #fbcac9, #8ca6ce);
+	  -webkit-background-clip: text;
+	  -webkit-text-fill-color: transparent;
+	  font-weight: 700;
+	  font-size: 24px;
+	}
+	.footer a{
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.footer{
+		text-align: center;
+		margin-bottom: 80px;
+	}
+	.container3 p span{
+		color: #7f7f7f;
+	}
+</style>
+
+<body>
+	<div class="navigation">
+		<a href="INDEX.html" class="logo"><b>GRACE'S</b></a>
+		<ul class="menu">
+			<b>
+			<li><a href="main.html">INTRODUCE</a></li>
+			<li><a href="page1.html">UI/UX DESIGN</a></li>
+			<li><a href="page2.html">GRAPHIC DESIGN</a></li>
+			<li><a href="page3.html">3D MODELING</a></li>
+			</b>
+		</ul>
+	</div>
+	<h1 class="intro">INTRODUCE</h1>
+	<div class="container">		
+		<div class="profile-img">
+		<img src="https://scontent-gmp1-1.xx.fbcdn.net/v/t1.0-9/p960x960/67104400_654687015007904_3000319910803931136_o.jpg?_nc_cat=100&_nc_sid=85a577&_nc_eui2=AeEU2xkoC3ZJMC2NJ-o6wtTpM8Nj0ZCQbY0zw2PRkJBtjUxwxXkUTDAQQDRoNuUAtFF1VBXvhQDMOYj7p5cducef&_nc_ohc=p_kKverYGagAX9knghn&_nc_ht=scontent-gmp1-1.xx&_nc_tp=6&oh=449c1c1561b4993204c090a4d16e825c&oe=5F1D8583" width="230px" height="250px">
+		</div>
+		<div class="profile-txt">
+			<h1>JEONG JI EUN </h1>
+			<h2>KOREA POLYTECHNIC UNIVERSITY<br>CONVERGENCE DESIGN</h2>
+			<br>
+			<p><b>P</b> : (+82)10-4100-8717 <br><b>E</b> : ashil_9@naver.com </p>
+		</div>
+	</div>
+	<div class="container2">
+		<h1 class="title"><span>USABLE TOOLS</span></h1>
+		<p class="sub-title">DESIGN TOOLS</p>
+		<div class="tool-img">
+			<img src="img/ps.png" width="70px">
+			<img src="img/ai.png" width="70px">
+			<img src="img/xd.png" width="70px">
+			<img src="img/nx.png" width="70px">
+			<img src="img/c4d.png" width="70px">
+		</div>
+		<p class="sub-title">OFFICE TOOLS</p>
+		<div class="tool-img">
+			<img src="img/word.png" width="70px">
+			<img src="img/p.png" width="70px">
+		</div>
+	</div>
+	<div class="container3">
+		<h1 class="title"><span>PROFESSIONAL EXPERIENCE</span></h1>
+		<p class="ex-title">Samsung Theme Designer</P>
+		<p><span> Mar. 2017 –</span><br>Analyzing  Latest Trends about mobile wallpaper<br>Developing wallpaper<br>Selling designed wallpaper</p>
+		<p class="ex-title">Intern Activities as UX Designer</P>
+		<p><span>Jan. 2020 – Feb . 2020</span>	<br>Jewelry Company 'Elite Group New York'<br>Web Design for Jewelry Brand<br>UX Design Works</p>
+	</div>
+	<div class="footer">
+		<a href="https://www.facebook.com/profile.php?id=100013998338598"> <img src="img/facebook.png" height="20px"></a>
+		<a href="https://www.instagram.com/am8jin_grace/"> <img src="img/instagram.png" height="20px"></a>
+		<a href="#"> <img src="img/twitter.png" height="20px"></a>
+</body>
+
+</html>
